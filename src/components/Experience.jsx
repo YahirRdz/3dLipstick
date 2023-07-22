@@ -10,9 +10,9 @@ export const Experience = () => {
   return (
     <>
       <ambientLight intensity={0.5} />
-      <Environment preset="sunset" />
+      <Environment preset='sunset' />
       <OrbitControls />
-      <Avatar position={[0, -4, 5]} scale={3} />
+      <Avatar position={[0, 1, 5]} scale={3} />
       <mesh>
         <sphereGeometry args={[10, 64, 64]} />
         <meshStandardMaterial map={map} side={THREE.BackSide} />
